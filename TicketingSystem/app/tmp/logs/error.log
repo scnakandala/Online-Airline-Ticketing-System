@@ -1,0 +1,6 @@
+2012-10-28 16:36:14 Error: [MissingControllerException] Controller class Notificatio4nController could not be found.
+#0 C:\wamp\www\TicketingSystem\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-28 16:36:21 Error: [MissingControllerException] Controller class NotificationController could not be found.
+#0 C:\wamp\www\TicketingSystem\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
