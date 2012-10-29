@@ -24,7 +24,7 @@
  * Here, we are connecting '/' (base path) to controller called 'Home',
  * its action called 'index'.
  */
-	Router::connect('/', array('controller' => 'home', 'action' => 'display', 'index'));
+	Router::connect('/', array('controller' => 'home', 'action' => 'index'));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 
