@@ -126,6 +126,7 @@ div.view {
 	width:76%;
 	border-left:1px solid #666;
 	padding:10px 2%;
+	overflow-x: scroll;
 }
 div.actions {
 	float:left;
@@ -809,3 +810,26 @@ ul.admin_home li a:hover {
 .related{
 	clear: none;
 }	
+
+
+/**Pages content area*/
+.home-page-content{
+	/*background-image: url('../img/airplane.jpg');
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 512px;
+	margin-top: 100px;
+	margin-left: 100px;
+	text-align:center;*/
+	width:96%;
+	margin: 2%px;
+	margin-top:50px;
+	padding:20px;
+	padding-top:5px;
+	text-align: left;
+	
+}
+
+.searchTickets.form{
+	overflow-x:hidden;
+}

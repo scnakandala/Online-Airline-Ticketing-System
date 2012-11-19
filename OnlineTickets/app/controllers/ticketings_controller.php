@@ -70,12 +70,15 @@ class TicketingsController extends AppController {
 			$this->set('airports',$this->Airport->find('list',array('fields' => array('Airport.id', 'Airport.name'))));
 			$this->set('airlines',$this->Flight->find('list',array('fields' => array('Flight.airline'))));
 		}else{
-			$this->redirect(array('action'=>'search_result'));
+			$this->redirect(array('action'=>'search_result',"?" => array(
+              "param1" => "val1",
+              "param2" => "val2"
+          )));
 		}
 	}
 	
 	function search_result(){
-		
+		print_r($this->params['url']['param1']);
 	}
 }
 
